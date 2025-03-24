@@ -1,15 +1,15 @@
 <template>
   <div class="main-container w-100 h-100">
-    <login-view />
+    <dashboard-view />
   </div>
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue';
-  import LoginView from './views/LoginView.vue';
+  import DashboardView from './views/DashboardView.vue';
 
   export default defineComponent({
-    components: { LoginView },
+    components: { DashboardView },
     setup() {
 
       return {}
