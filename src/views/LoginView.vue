@@ -8,8 +8,8 @@
         <div class="d-none d-sm-flex align-items-center justify-content-center">
             <span class="divider gradient-background mx-5 rounded-1 h-25" style="padding: 1px;"></span>
         </div>
-        <div class="login-form d-flex align-items-center">
-            <form class="w-100 mx-3 mx-sm-0">
+        <div class="login-form d-flex align-items-center justify-content-center px-3 px-md-0">
+            <form class="col-11">
                 <div class="mb-3">
                   <label for="studentID" class="form-label">Student ID</label>
                   <input class="form-control border-2 border-black rounded-1" id="studentID" placeholder="e.g 20116">
